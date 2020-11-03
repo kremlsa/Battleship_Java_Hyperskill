@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Battleship.iml" filepath="$PROJECT_DIR$/.idea/modules/Battleship.iml" group="Battleship" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Battleship/task/Battleship-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Battleship/task/Battleship-task.iml" group="Battleship/Battleship-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Battleship/task/Battleship-task_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Battleship/task/Battleship-task_main.iml" group="Battleship/Battleship-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Battleship/task/Battleship-task_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Battleship/task/Battleship-task_test.iml" group="Battleship/Battleship-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util.iml" group="Battleship/util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" group="Battleship/util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" group="Battleship/util" />
+    </modules>
+  </component>
+</project>
