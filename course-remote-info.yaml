@@ -20,8 +20,6 @@ topics:
     theory_id: 6865
   - title: Introduction to OOP
     theory_id: 3614
-  - title: Functional decomposition
-    theory_id: 10570
   - title: What are streams
     theory_id: 5533
   - title: What is an exception
@@ -100,6 +98,8 @@ topics:
     theory_id: 10982
   - title: The main method
     theory_id: 3489
+  - title: Functional decomposition
+    theory_id: 10570
   - title: Primitive and reference types
     theory_id: 5035
   - title: Array

@@ -200,6 +200,45 @@ class BattleField {
              return true;
          }
         }
+        if (x == 0 && x < size - 1 && y > 0 && y < size - 1) {
+            if (bf[y + 1][x].equals("O") || bf[y + 1][x + 1].equals("O") ||
+                    bf[y][x + 1].equals("O") || bf[y][x].equals("O") ||
+                    bf[y - 1][x].equals("O") || bf[y - 1][x +1].equals("O")) {
+                return true;
+            }
+        }
+        if (x > 0 && x == size - 1 && y > 0 && y < size - 1) {
+            if (bf[y + 1][x].equals("O")  || bf[y + 1][x - 1].equals("O") ||
+                    bf[y][x - 1].equals("O") || bf[y][x].equals("O") ||
+                    bf[y - 1][x -1].equals("O") || bf[y - 1][x].equals("O")) {
+                return true;
+            }
+        }
+        if (x > 0 && x < size - 1 && y == 0) {
+            if (bf[y + 1][x].equals("O") || bf[y + 1][x + 1].equals("O") || bf[y + 1][x - 1].equals("O") ||
+                    bf[y][x + 1].equals("O") || bf[y][x - 1].equals("O") || bf[y][x].equals("O")) {
+                return true;
+            }
+        }
+        if (x > 0 && x < size - 1 && y == size - 1) {
+            if (bf[y][x + 1].equals("O") || bf[y][x - 1].equals("O") || bf[y][x].equals("O") ||
+                    bf[y - 1][x -1].equals("O") || bf[y - 1][x].equals("O") || bf[y - 1][x +1].equals("O")) {
+                return true;
+            }
+        }
+        if (x == 0 && y == 0) {
+            return bf[y][x].equals("O") || bf[y + 1][x + 1].equals("O") || bf[y + 1][x].equals("O") || bf[y][x + 1].equals("O");
+        }
+        if (x == 0 && y == size -1) {
+            return bf[y][x].equals("O") || bf[y - 1][x + 1].equals("O") || bf[y - 1][x].equals("O") || bf[y][x + 1].equals("O");
+        }
+        if (x == size - 1 && y == 0) {
+            return bf[y][x].equals("O") || bf[y + 1][x - 1].equals("O") || bf[y + 1][x].equals("O") || bf[y][x - 1].equals("O");
+        }
+        if (x == size - 1 && y == size - 1) {
+            return bf[y][x].equals("O") || bf[y - 1][x - 1].equals("O") || bf[y - 1][x].equals("O") || bf[y][x - 1].equals("O");
+        }
+
         return false;
     }
 
